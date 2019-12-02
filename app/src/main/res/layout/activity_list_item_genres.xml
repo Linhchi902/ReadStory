@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlt_layout_item"
+    android:layout_width="match_parent"
+    android:layout_margin="2dp"
+    android:background="@color/colorBackgroundItem"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_genres"
+        android:src="@drawable/im_1"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitStart"
+        android:layout_width="140dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/tv_namegenres"
+        android:layout_toEndOf="@+id/img_genres"
+        android:layout_toRightOf="@+id/img_genres"
+        android:text="Truyện cười"
+        android:textColor="@color/colorNameGenres"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/img_arrow"
+        android:src="@drawable/ic_right_blue_48dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
